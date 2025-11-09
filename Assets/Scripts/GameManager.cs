@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
 	public static GameManager Instance;
 	public PlayerControls player;
-	public int score = 0;
+	
 
 	void Awake()
 	{
@@ -22,8 +22,10 @@ public class GameManager : MonoBehaviour
 
 	public void PlayerReachedGoal()
 	{
-		score += 100;
-		Debug.Log("Goal Reached! Score: " + score);
+		
+		Debug.Log("Goal Reached! Score:");
+		
+		GameOver();
 	}
 
 	void GameOver()

@@ -4,7 +4,7 @@ public class LaneObstacle : MonoBehaviour
 {
 	public float speed = 5f;
 	public Vector3 direction = Vector3.forward;
-	public float destroyDistance = 30f;
+	public float destroyDistance = 60f;
 
 	private Vector3 spawnPos;
 
