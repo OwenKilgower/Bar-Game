@@ -9,8 +9,8 @@ public class Bottle : MonoBehaviour, IInteractable
     [SerializeField] private string sceneName = "Next Scene Name";
 
 
-    public string NextScene => sceneName;
-    public string MessagePopUp => hoverMessage;
+    public string nextScene => sceneName;
+    public string messagePopUp => hoverMessage;
 
     public TextMeshProUGUI hoverText;
 

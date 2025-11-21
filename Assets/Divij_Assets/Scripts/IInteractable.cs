@@ -2,6 +2,6 @@ using UnityEngine;
 
 public interface IInteractable 
 {
-    string MessagePopUp { get;}
-    string NextScene {get;}
+    string messagePopUp { get;}
+    string nextScene {get;}
 }
