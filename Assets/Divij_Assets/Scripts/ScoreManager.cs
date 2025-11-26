@@ -9,7 +9,7 @@ namespace Divij_Assets.Scripts
         public static ScoreManager Instance { get; private set; }
 
         public int score = 0;
-        public int scoreTarget = 22;
+        public int scoreTarget = 100;
 
         [SerializeField] public string nextScene = "Next Scene fr";
 

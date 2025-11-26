@@ -4,7 +4,7 @@ namespace Divij_Assets.Scripts
 {
     public class BeerBall : MonoBehaviour
     {
-        public int amount = 1;
+        public int amount = 5;
 
         public float lifeTime = 5f;
 
