@@ -1,7 +1,8 @@
-using UnityEngine;
-
-public interface IInteractable 
+namespace Divij_Assets.Scripts
 {
-    string messagePopUp { get;}
-    string nextScene {get;}
+    public interface IInteractable 
+    {
+        string messagePopUp { get;}
+        string nextScene {get;}
+    }
 }
