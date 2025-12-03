@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GTTP_GameManager : MonoBehaviour
 {
-	public static GameManager Instance;
-	public PlayerControls player;
+	public static GTTP_GameManager Instance;
+	public GTTP_PlayerControls player;
 	
 
 	void Awake()

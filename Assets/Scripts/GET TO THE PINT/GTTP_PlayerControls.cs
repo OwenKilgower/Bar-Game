@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class PlayerControls : CharacterBase
+public class GTTP_PlayerControls : GTTP_CharacterBase
 {
 	[Header("Movement Settings")]
-	public float hopDistance = 1f;
+	public float hopDistance = 2.5f;
 	public float moveSpeed = 6f;
 
 	[Header("Keybinds")]
-	public KeyCode moveUp = KeyCode.W;
-	public KeyCode moveDown = KeyCode.S;
-	public KeyCode moveLeft = KeyCode.A;
-	public KeyCode moveRight = KeyCode.D;
+	public KeyCode moveUp = KeyCode.S;
+	public KeyCode moveDown = KeyCode.W;
+	public KeyCode moveLeft = KeyCode.D;
+	public KeyCode moveRight = KeyCode.A;
 
 	private bool isMoving = false;
 	private Vector3 targetPos;
@@ -40,6 +40,10 @@ public class PlayerControls : CharacterBase
 
 		if (dir != Vector3.zero)
 		{
+			// Rotate the player to face the hop direction
+			transform.rotation = Quaternion.LookRotation(dir);
+
+			// Move the player
 			targetPos = transform.position + dir * hopDistance;
 			isMoving = true;
 		}
@@ -54,20 +58,17 @@ public class PlayerControls : CharacterBase
 		if (Vector3.Distance(transform.position, targetPos) < 0.001f)
 			isMoving = false;
 	}
-
-	private void OnTriggerEnter(Collider other)
-	{
-		if (other.CompareTag("Goal"))
-		{
-			GameManager.Instance.PlayerReachedGoal();
-			Respawn();
-		}
-	}
-
+	
 	public override void Die()
 	{
 		// Use CharacterBase death behavior
 		base.Die();
+	}
+	public override void Respawn()
+	{
+		base.Respawn();
+		isMoving = false;
+		targetPos = transform.position;
 	}
 }
 

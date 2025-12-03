@@ -1,13 +1,12 @@
 using UnityEngine;
 
-public class ThrownBottle : LaneObstacle
+public class GTTP_Goal : MonoBehaviour
 {
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("Player"))
-		{
-			
-			other.GetComponent<PlayerControls>().Die();
-		}
+			GTTP_GameManager.Instance.PlayerReachedGoal();
 	}
 }
+
+

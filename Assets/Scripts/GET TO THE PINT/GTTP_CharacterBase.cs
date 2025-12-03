@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CharacterBase : MonoBehaviour
+public class GTTP_CharacterBase : MonoBehaviour
 
 {
 	public int lives = 3;
@@ -14,7 +14,7 @@ public class CharacterBase : MonoBehaviour
 	public virtual void Die()
 	{
 		lives--;
-		GameManager.Instance.PlayerDied();
+		GTTP_GameManager.Instance.PlayerDied();
 		Respawn();
 	}
 

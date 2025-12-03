@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LaneObstacle : MonoBehaviour
+public class GTTP_LaneObstacle : MonoBehaviour
 {
 	public float speed = 5f;
 	public Vector3 direction = Vector3.forward;

@@ -1,10 +1,10 @@
 using UnityEngine;
 using System.Collections;
-public class LaneObstacleSpawner : MonoBehaviour
+public class GTTP_LaneObstacleSpawner : MonoBehaviour
 {
 	
 	[Header("Spawnable Prefabs")]
-	public LaneObstacle[] prefabs; 
+	public GTTP_LaneObstacle[] prefabs; 
 
 	[Header("Spawn Settings")]
 	public float spawnInterval = 2f;
@@ -34,10 +34,10 @@ public class LaneObstacleSpawner : MonoBehaviour
 	{
 		if (prefabs == null || prefabs.Length == 0) return;
 
-		LaneObstacle prefab = prefabs[Random.Range(0, prefabs.Length)];
+		GTTP_LaneObstacle prefab = prefabs[Random.Range(0, prefabs.Length)];
 
 		Vector3 spawnPos = transform.position + spawnDirection.normalized * spawnOffset;
-		LaneObstacle obj = Instantiate(prefab, spawnPos, Quaternion.identity);
+		GTTP_LaneObstacle obj = Instantiate(prefab, spawnPos, Quaternion.identity);
 
 		obj.speed = laneSpeed;
 		obj.direction = spawnDirection;
