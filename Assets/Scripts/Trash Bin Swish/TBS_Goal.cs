@@ -1,12 +1,15 @@
 using UnityEngine;
 
-public class TBS_Goal : MonoBehaviour
+public class TBS_Goal : TBS_ScoreManager
 {
-	private void OnTriggerEnter(Collider other)
+	public void OnTriggerEnter(Collider other)
 	{
 		if (other.GetComponent<TBS_CanToss>() != null)
 		{
 			Debug.Log("SCORED!");
+
+			goalscored();
+
 		}
 	}
 }
