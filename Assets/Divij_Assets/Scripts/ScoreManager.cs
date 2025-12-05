@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,6 +13,14 @@ namespace Divij_Assets.Scripts
         public int scoreTarget = 100;
 
         [SerializeField] public string nextScene = "Next Scene fr";
+
+        public TextMeshProUGUI totalScoreText;
+
+
+        private void Update()
+        {
+            totalScoreText.text = "Total Score: " + score;
+        }
 
         private void Awake()
         {
