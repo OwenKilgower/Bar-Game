@@ -153,8 +153,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beerBallPrefab: {fileID: 1622814386973444784, guid: 050afde7a16e43542a6b7f4ccab33a22, type: 3}
   spawnPoint: {fileID: 258217108}
-  spawnInterval: 0.25
-  initialSpeed: 1
+  spawnInterval: 0.1
+  initialSpeed: 2
   warningEffect: {fileID: 0}
   warningDelay: 1
 --- !u!136 &184865161
@@ -758,9 +758,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 445676426}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -20}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &924169619
@@ -1050,8 +1050,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beerBallPrefab: {fileID: 1622814386973444784, guid: 050afde7a16e43542a6b7f4ccab33a22, type: 3}
   spawnPoint: {fileID: 1788275674}
-  spawnInterval: 0.25
-  initialSpeed: 1
+  spawnInterval: 0.1
+  initialSpeed: 2
   warningEffect: {fileID: 0}
   warningDelay: 1
 --- !u!1 &1264395046
@@ -1141,7 +1141,7 @@ Transform:
   m_GameObject: {fileID: 1264395046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 3.5, z: 2.07}
+  m_LocalPosition: {x: 0, y: 3.54, z: 2.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1225,8 +1225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beerBallPrefab: {fileID: 1622814386973444784, guid: 050afde7a16e43542a6b7f4ccab33a22, type: 3}
   spawnPoint: {fileID: 1198408885}
-  spawnInterval: 0.25
-  initialSpeed: 1
+  spawnInterval: 0.1
+  initialSpeed: 2
   warningEffect: {fileID: 0}
   warningDelay: 1
 --- !u!136 &1325812295
@@ -1435,8 +1435,8 @@ MonoBehaviour:
   - {fileID: 1917664082}
   - {fileID: 184865159}
   - {fileID: 1325812293}
-  spawnDelay: 1
-  flowTime: 4
+  spawnDelay: -1
+  flowTime: 2
   avoidRepeat: 1
 --- !u!4 &1584760600
 Transform:
@@ -1518,8 +1518,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  scoreTarget: 22
+  scoreTarget: 100
   nextScene: D_BarCounterScene
+  totalScoreText: {fileID: 924169619}
 --- !u!4 &1823826542
 Transform:
   m_ObjectHideFlags: 0
@@ -1569,8 +1570,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beerBallPrefab: {fileID: 1622814386973444784, guid: 050afde7a16e43542a6b7f4ccab33a22, type: 3}
   spawnPoint: {fileID: 1202948681}
-  spawnInterval: 0.25
-  initialSpeed: 1
+  spawnInterval: 0.1
+  initialSpeed: 2
   warningEffect: {fileID: 0}
   warningDelay: 1
 --- !u!136 &1917664084
