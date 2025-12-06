@@ -1,10 +1,23 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GTTP_GameManager : MonoBehaviour
 {
 	public static GTTP_GameManager Instance;
+
 	public GTTP_PlayerControls player;
-	
+
+	[Header("UI Images")]
+	public GameObject goalImage;
+	public GameObject gameOverImage;
+
+	[Header("Scene Settings")]
+	public string nextScene;         // scene after goal
+	public string gameOverScene;     // scene after losing
+
+	[Header("Display Settings")]
+	public float displayDuration = 2f; // how long image shows before switching
 
 	void Awake()
 	{
@@ -17,20 +30,24 @@ public class GTTP_GameManager : MonoBehaviour
 		Debug.Log("Player Died! Lives left: " + player.lives);
 
 		if (player.lives <= 0)
-			GameOver();
+			StartCoroutine(ShowImageAndLoadScene(gameOverImage, gameOverScene));
 	}
 
 	public void PlayerReachedGoal()
 	{
-		
-		Debug.Log("Goal Reached! Score:");
-		
-		GameOver();
+		Debug.Log("Goal Reached!");
+		StartCoroutine(ShowImageAndLoadScene(goalImage, nextScene));
 	}
 
-	void GameOver()
+	private IEnumerator ShowImageAndLoadScene(GameObject imageObject, string sceneName)
 	{
-		Debug.Log("GAME OVER!");
+		imageObject.SetActive(true);            // show PNG image
+		Time.timeScale = 0f;                    // freeze gameplay
+		yield return new WaitForSecondsRealtime(displayDuration); // wait while paused
+		Time.timeScale = 1f;                    // unfreeze before switching scene
+		SceneManager.LoadScene(sceneName);      // change scene
 	}
 }
+
+
 

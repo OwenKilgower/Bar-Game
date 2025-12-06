@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverMessage: This for Kenneths Game
-  sceneName: Next Scene Name
+  sceneName: K_TRASH BIN SWISH
   hoverText: {fileID: 1094886556}
 --- !u!136 &90982285
 CapsuleCollider:
