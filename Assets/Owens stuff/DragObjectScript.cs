@@ -57,6 +57,6 @@ public class DragObjectScript : MonoBehaviour
 
     void OnMouseDrag()
     {
-         gameObject.transform.position = GetMouseWorldPos() + mOffset;
+        gameObject.transform.position = GetMouseWorldPos() + mOffset;
     }
 }

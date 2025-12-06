@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using TMPro;
 
 namespace Divij_Assets.Scripts
 {
@@ -8,6 +9,7 @@ namespace Divij_Assets.Scripts
     
         //Might add if feel9ng cool
         public GameObject scoreTextPrefab;
+
         
 
 
