@@ -1,6 +1,7 @@
 using UnityEngine;
-using System.Collections;  
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Collections;
 
 public class TBS_ScoreManager : MonoBehaviour
 {
@@ -10,8 +11,12 @@ public class TBS_ScoreManager : MonoBehaviour
 	public int score = 0;
 	public int scoreTarget = 3;
 
+	[Header("UI Images")]
+	public GameObject goalCompleteUI;
+	public GameObject goalFailedUI;
+
 	[Header("Scene")]
-	[SerializeField] public string nextScene = "Next Scene fr";
+	public string nextScene = "Next Scene fr";
 
 	private void Awake()
 	{
@@ -21,39 +26,48 @@ public class TBS_ScoreManager : MonoBehaviour
 			return;
 		}
 		Instance = this;
-		
 	}
 
-	
+	// When scoring a goal
 	public void GoalScored()
 	{
-		score += 1;
+		score++;
 		Debug.Log("[ScoreManager] score: " + score);
 
 		if (score >= scoreTarget)
 		{
-			OnTargetReached();
+			StartCoroutine(ShowGoalComplete());
 		}
 	}
 
-	private void OnTargetReached()
-	{
-		Debug.Log("[ScoreManager] target reached, loading: " + nextScene);
-		// Make sure nextScene exists in Build Settings
-		SceneManager.LoadScene(nextScene);
-	}
-	
+	// When out of attempts
 	public void OutOfAttempts()
 	{
-		Debug.Log("[ScoreManager] Out of attempts — changing scene soon...");
+		Debug.Log("[ScoreManager] Out of attempts — showing fail UI...");
 
-		// Delay scene change
-		StartCoroutine(DelayedSceneLoad());
+		StartCoroutine(ShowGoalFailed());
 	}
 
-	private IEnumerator DelayedSceneLoad()
+	private IEnumerator ShowGoalComplete()
 	{
-		yield return new WaitForSeconds(2f);  
+		Debug.Log("[ScoreManager] showing goal complete UI...");
+        
+		if (goalCompleteUI != null)
+			goalCompleteUI.SetActive(true);
+
+		yield return new WaitForSeconds(2f);
+
+		SceneManager.LoadScene(nextScene);
+	}
+
+	private IEnumerator ShowGoalFailed()
+	{
+		Debug.Log("[ScoreManager] showing goal failed UI...");
+
+		if (goalFailedUI != null)
+			goalFailedUI.SetActive(true);
+
+		yield return new WaitForSeconds(2f);
 
 		SceneManager.LoadScene(nextScene);
 	}
