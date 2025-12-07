@@ -7,8 +7,7 @@ public class DragObjectScript : MonoBehaviour
     private Vector3 mOffset;
 
     private float mZCoord;
-    public GameObject rotatingObject;
-    private bool mouseHold;
+    public bool mouseHold;
    
 
     void OnMouseDown()
@@ -34,13 +33,13 @@ public class DragObjectScript : MonoBehaviour
         if (Input.GetKey(KeyCode.A) && mouseHold == true)
         {
             
-            transform.Rotate(0f, 0f, 0.4f);
+            transform.Rotate(0f, -0.4f, 0f);
         }
 
         if (Input.GetKey(KeyCode.D) && mouseHold == true)
         {
 
-            transform.Rotate(0f, 0f, -0.4f);
+            transform.Rotate(0f, 0.4f, 0f);
         }
     }
 

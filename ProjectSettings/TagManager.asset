@@ -7,6 +7,7 @@ TagManager:
   - Bottle
   - Table
   - EmptyCan
+  - Clamp
   layers:
   - Default
   - TransparentFX
