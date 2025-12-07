@@ -32,20 +32,15 @@ public class ScoreManager : MonoBehaviour
             StartCoroutine(Failure());
         }
     }
-    private void OnTriggerEnter(Collider other)
+
+    public void AddScore()
     {
-        if (other.CompareTag("Coasters"))
-        {
-            score += 1f;
-        }
+        score += 1f;
     }
 
-    private void OnTriggerExit(Collider other)
+    public void RemoveScore()
     {
-        if  (other.CompareTag("Coasters"))
-        { 
-            score -= 1f;
-        }
+        score -= 1f;
     }
     
     IEnumerator Success()

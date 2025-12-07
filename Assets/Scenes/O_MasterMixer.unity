@@ -5807,6 +5807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1389ff751c68ea9479429a2e2c78956d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1275136911}
   source: {fileID: 608626061}
   clip: {fileID: 8300000, guid: 50965b4283a171744b04091a43338d0b, type: 3}
 --- !u!114 &1865934612
