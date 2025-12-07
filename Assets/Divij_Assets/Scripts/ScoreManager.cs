@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 namespace Divij_Assets.Scripts
 {
@@ -15,11 +17,34 @@ namespace Divij_Assets.Scripts
         [SerializeField] public string nextScene = "Next Scene fr";
 
         public TextMeshProUGUI totalScoreText;
+        public TextMeshProUGUI countdownText;
+
+        public float youFailedTime = 15f;
+        private float timer;
+
+
+        private void Start()
+        {
+            timer = youFailedTime;
+        }
+        
 
 
         private void Update()
         {
             totalScoreText.text = "Total Score: " + score;
+
+            timer -= Time.deltaTime;
+
+            if (countdownText != null)
+            {
+                countdownText.text = "Time: " + Mathf.RoundToInt(timer);
+            }
+
+            if (timer <= 0f)
+            {
+                SceneManager.LoadScene(nextScene);
+            }
         }
 
         private void Awake()

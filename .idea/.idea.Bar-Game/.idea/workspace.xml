@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af7b0d15-2b4e-433c-a798-83fa03473e3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Prefabs/LiquidInstance.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Prefabs/LiquidInstance.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/LiquidSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/LiquidSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/MouseClamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/MouseClamp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +37,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
