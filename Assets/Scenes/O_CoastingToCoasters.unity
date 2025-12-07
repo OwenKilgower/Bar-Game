@@ -221,8 +221,8 @@ Transform:
   m_GameObject: {fileID: 121376155}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: 3.33, z: -0.67}
-  m_LocalScale: {x: 28.767817, y: 6.9997, z: 1}
+  m_LocalPosition: {x: -0.17, y: 4.09, z: -0.67}
+  m_LocalScale: {x: 28.767817, y: 10.50375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 390674419}
   - component: {fileID: 390674418}
   - component: {fileID: 390674421}
+  - component: {fileID: 390674422}
   m_Layer: 0
   m_Name: Coaster4
   m_TagString: Coasters
@@ -485,6 +486,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &390674422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390674416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130bd2068748e5249a5668ec3cb3b6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1207761678}
 --- !u!1 &543182583
 GameObject:
   m_ObjectHideFlags: 0
@@ -748,6 +762,7 @@ GameObject:
   - component: {fileID: 814767884}
   - component: {fileID: 814767883}
   - component: {fileID: 814767886}
+  - component: {fileID: 814767887}
   m_Layer: 0
   m_Name: Coaster2
   m_TagString: Coasters
@@ -844,6 +859,76 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &814767887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814767881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130bd2068748e5249a5668ec3cb3b6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1207761678}
+--- !u!1001 &955003912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.223
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.4246154
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
+      propertyPath: m_Name
+      value: BarCharacter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32c356a9de3536e44a241f2d44c442a0, type: 3}
 --- !u!1 &1056026718
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,6 +941,7 @@ GameObject:
   - component: {fileID: 1056026721}
   - component: {fileID: 1056026720}
   - component: {fileID: 1056026723}
+  - component: {fileID: 1056026724}
   m_Layer: 0
   m_Name: Coaster1
   m_TagString: Coasters
@@ -952,6 +1038,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &1056026724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056026718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130bd2068748e5249a5668ec3cb3b6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1207761678}
 --- !u!1 &1149920426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1557,7 @@ GameObject:
   - component: {fileID: 1840314224}
   - component: {fileID: 1840314223}
   - component: {fileID: 1840314226}
+  - component: {fileID: 1840314227}
   m_Layer: 0
   m_Name: Coaster3
   m_TagString: Coasters
@@ -1554,6 +1654,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &1840314227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840314221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130bd2068748e5249a5668ec3cb3b6ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreManager: {fileID: 1207761678}
 --- !u!1 &1916879929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,3 +1960,4 @@ SceneRoots:
   - {fileID: 2091887089}
   - {fileID: 1556506044}
   - {fileID: 1149920429}
+  - {fileID: 955003912}

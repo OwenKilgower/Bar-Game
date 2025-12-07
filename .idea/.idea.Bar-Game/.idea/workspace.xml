@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="af7b0d15-2b4e-433c-a798-83fa03473e3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Coasting to Coasters/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Coasting to Coasters/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/CupTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/CupTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BarGameTitleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BarGameTitleScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/D_BarCounterScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/D_BarCounterScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/K_Get to the Pint.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/K_Get to the Pint.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kennith_Assets/materials/13023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/kennith_Assets/materials/13023.jpg.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

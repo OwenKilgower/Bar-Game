@@ -6,7 +6,7 @@ public class CupTrigger : MonoBehaviour
     public CupSide cupSide;
 
     public MMScoreManager scoreManager;
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Liquid"))
