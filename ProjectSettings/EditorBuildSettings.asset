@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/D_BeerTapScene.unity
-    guid: dae04fae1eda90143bca537cfcb5656f
+    path: Assets/Scenes/BarGameTitleScreen.unity
+    guid: 940b20554dbc890448bc7bfc52123c88
   - enabled: 1
     path: Assets/Scenes/D_BarCounterScene.unity
     guid: 53ffc7b6e2f89d24c9b9bc41e7a829a1
+  - enabled: 1
+    path: Assets/Scenes/D_BeerTapScene.unity
+    guid: dae04fae1eda90143bca537cfcb5656f
   - enabled: 1
     path: Assets/Scenes/O_MasterMixer.unity
     guid: d909c28edd13e774fb4ef58ff694d17f
@@ -26,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/O_CoastingToCoasters.unity
     guid: 42bdcccc548e5ef479cedb116d24e74a
-  - enabled: 1
-    path: Assets/Scenes/BarGameTitleScreen.unity
-    guid: 940b20554dbc890448bc7bfc52123c88
   - enabled: 1
     path: Assets/Scenes/CreditScene.unity
     guid: 9817ed0d70b22d944a3783a7ccb5ab32

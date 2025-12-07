@@ -2138,7 +2138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverMessage: Coasting To Coasters
-  sceneName: O_CoastingToCoaster
+  sceneName: O_CoastingToCoasters
   hoverText: {fileID: 1094886556}
 --- !u!65 &1895727539
 BoxCollider:
