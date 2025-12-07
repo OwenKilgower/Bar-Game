@@ -8,6 +8,10 @@ TagManager:
   - Table
   - EmptyCan
   - Clamp
+  - ScoreTrigger
+  - ScoreTrigger2
+  - GlassPrefab
+  - Coasters
   layers:
   - Default
   - TransparentFX

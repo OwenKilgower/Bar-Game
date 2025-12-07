@@ -47,7 +47,7 @@ public class LiquidSpawner : MonoBehaviour
 
         if (currentAmount == 100f)
         {
-            if (leftCupAccuracy <= 35f && rightCupAccuracy <= 35f)
+            if (leftCupAccuracy >= 35f && rightCupAccuracy >= 35f)
             {
                 StartCoroutine(Success());
             }
