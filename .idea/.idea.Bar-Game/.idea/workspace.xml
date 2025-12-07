@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="af7b0d15-2b4e-433c-a798-83fa03473e3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Coasting to Coasters/StrengthGauge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Coasting to Coasters/StrengthGauge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BarGameTitleScreen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BarGameTitleScreen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Prefabs/LiquidInstance.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Prefabs/LiquidInstance.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/LiquidSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/LiquidSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/MouseClamp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/MouseClamp.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_CoastingToCoasters.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/MM ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Owens stuff/Scripts/Master Mixer/Tutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/D_BarCounterScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@6b9e48457ddb/Editor/Animation/AnimationClipCurveCache.cs" root0="SKIP_HIGHLIGHTING" />
