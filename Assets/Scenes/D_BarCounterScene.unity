@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05db833617912bb418f6d4514b47995d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverMessage: This Work?
+  hoverMessage: TRASH BIN SWISH
   sceneName: K_TRASH BIN SWISH
   hoverText: {fileID: 1094886556}
 --- !u!65 &260623416
@@ -1955,6 +1955,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6eb0bcad3aa48e145a511289bf5f64fc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1809694269}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6eb0bcad3aa48e145a511289bf5f64fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1809694273}
   m_SourcePrefab: {fileID: 100100000, guid: 6eb0bcad3aa48e145a511289bf5f64fc, type: 3}
 --- !u!1 &1809694268 stripped
 GameObject:
@@ -1973,9 +1976,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05db833617912bb418f6d4514b47995d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverMessage: This Work?
-  sceneName: Next Scene Name
+  hoverMessage: GET TO THE PINT
+  sceneName: K_Get to the Pint
   hoverText: {fileID: 1094886556}
+--- !u!65 &1809694273
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809694268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2516658, y: 2.6161714, z: 1.9499999}
+  m_Center: {x: 0, y: 0.30808568, z: -0.325}
 --- !u!1001 &1818183362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2092,6 +2116,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 717617ffdef394942a324eae128af435, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1895727535}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 717617ffdef394942a324eae128af435, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1895727539}
   m_SourcePrefab: {fileID: 100100000, guid: 717617ffdef394942a324eae128af435, type: 3}
 --- !u!1 &1895727534 stripped
 GameObject:
@@ -2113,6 +2140,27 @@ MonoBehaviour:
   hoverMessage: This Work?
   sceneName: Next Scene Name
   hoverText: {fileID: 1094886556}
+--- !u!65 &1895727539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895727534}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9021156, y: 2.175806, z: 1.9999998}
+  m_Center: {x: 0, y: -2.831178, z: 0}
 --- !u!1001 &1975041757
 PrefabInstance:
   m_ObjectHideFlags: 0

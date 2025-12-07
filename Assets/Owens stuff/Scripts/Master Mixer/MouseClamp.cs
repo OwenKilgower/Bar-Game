@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class MouseClamp : MonoBehaviour
 {
+    public MMScoreManager scoreManager;
+    
     public AudioSource source;
     public AudioClip clip;
     private void OnTriggerEnter(Collider other)
@@ -13,6 +15,7 @@ public class MouseClamp : MonoBehaviour
             Debug.Log("Clamp entered");
             source.PlayOneShot(clip);
             Destroy(gameObject, 0.5f);
+            scoreManager.FunctionGlassBroken();
         }
     }
 }
