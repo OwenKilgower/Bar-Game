@@ -4,18 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3535003-858a-4add-8284-80d17284fa2d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bar-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/3D assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/DragObjectScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/DragObjectScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Physics.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Owens stuff/Physics.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/O_MasterMixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/materials/BottleTableMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/materials/BottleTableMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/materials/CharacterMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/materials/CharacterMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +15,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Owens stuff/MouseClamp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/D_BarCounterScene.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TRASH BIN SWISH/TBS_ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@6b9e48457ddb/Editor/Animation/AnimationClipCurveCache.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -55,7 +41,6 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\1034771\Documents\GitHub\Bar-Game -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\1034771\Documents\GitHub\Bar-Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -66,7 +51,6 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\1034771\Documents\GitHub\Bar-Game -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\1034771\Documents\GitHub\Bar-Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -116,8 +100,6 @@
       <option name="presentableId" value="Default" />
       <updated>1764807961917</updated>
       <workItem from="1764807963768" duration="1445000" />
-      <workItem from="1764978828614" duration="5000" />
-      <workItem from="1765014702684" duration="7889000" />
     </task>
     <servers />
   </component>
